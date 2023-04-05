@@ -38,7 +38,7 @@ export function Home() {
   const { handleSubmit, watch, reset } = newCycleForm
 
   function handleCreateNewCycle(data: NewCycleFormData) {
-    createNewCycle()
+    createNewCycle(data)
     reset()
   }
 
